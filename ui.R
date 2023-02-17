@@ -1,4 +1,3 @@
-library(shiny)
 source(file = 'source.R')
 ui <- fluidPage(
   theme = shinytheme("flatly"),
@@ -9,12 +8,12 @@ ui <- fluidPage(
                         br(),
                         h2("What is this app?"),
                         br(),
-                        p("In this R Shiny application that we have created, a variety of activities can be carried 
-                          out on a large scale. Our application gathers data on the well-being of people in different 
-                          countries. The data information tab provides outcomes such as the total happiness score of 
-                          a country, life expectancy, social support, and other factors, based on the year and the 
-                          number of countries selected. Additionally, the variable chosen in the program can be sorted 
-                          either in increasing or decreasing order based on the number of countries the user selects."),
+                        p("This R Shiny application uses world happiness data from 2018 and 2019 which is about the 
+                          well-being of people in different countries. The data information tab provides outcomes 
+                          such as the total happiness score of a country, life expectancy, social support, and other 
+                          factors, based on the year and the number of countries selected. Additionally, the variable 
+                          chosen in the program can be sorted either in increasing or decreasing order based on the 
+                          number of countries the user selects."),
                         br(),
                         p("Furthermore, the changes in the selected countries over the years can be observed through 
                           the presented graph. The graphic also displays the components that contribute to the given 
