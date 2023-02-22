@@ -1,4 +1,4 @@
-## project_292_RShiny (World Happiness Data)
+## project_292_RShiny (World Happiness Data) 07.06.2020
 
 #### Application uses world happiness data from 2018 and 2019 related to happiness rankings of countries with various quality of life factors.
 ### Content:
